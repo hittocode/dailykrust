@@ -1,0 +1,175 @@
+* {
+    border-radius: 10px;
+
+}
+
+html {
+    background-color: beige;
+}
+header {
+  background-image: url(images/header.HEIC);
+  background-size: cover;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    
+}
+
+nav {
+    background-color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 100%;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;list-style: none;
+    font-size: 200%;
+    padding: 10px 0;
+ 
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: green;
+}
+.menu a:visited {
+    color: orange;
+}
+
+.subheader {
+    background-image: url(images/doughballs.jpg);
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    height: 430px;
+   
+   
+    
+}
+
+.subheader h2 {
+    opacity: 50%;
+    color: green;
+    font-size: 660%;
+    letter-spacing: -2px;
+    line-height: 90%;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    
+   
+}
+
+.mission, .gallery {
+    color: green;
+    font-size: 32px;
+    
+}
+.mission h3 {
+    color: black;
+    font-size: 32px;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.mission, .mission h3, .gallery {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+
+.pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/woodbackground.jpg);
+    background-size: cover;
+    
+}
+
+.pizzas li {
+    height: 20vh;
+    flex-grow: 1;
+    list-style: none;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.pizzas img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    box-shadow: 5px 5px 5px transparent;
+    transition: all 0.5s;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.767);
+}
+
+.pizzas img:hover {
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.767);
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+.contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    text-align: center;
+    background-color: white;
+    line-height: 10%;
+}
+
+.contact h1 {
+    padding-top: 5%;
+}
+.contact img {
+    width: 70%;
+}
+
+.contact h2 {
+    font-size: 500%;
+    color: green;
+    padding: 3%;
+    border: 1px dashed green;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: green;
+}
+.contact a:visited {
+    color: orange;
+}
+
+.contact h3 {
+    color: brown;
+    padding-bottom: 5%;
+    font-size: 200%;
+}
